@@ -17,7 +17,6 @@ include_directories(
     ${CODE_PATH}/src/libBWE
     ${CODE_PATH}/src/libSATECodec
     )
-
 file(GLOB SRC_LIST
     ${CODE_PATH}/interface/*.h
     ${CODE_PATH}/src/libBWE/*.c
